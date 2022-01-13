@@ -1,0 +1,15 @@
+# POD commands :
+kubectl run nginx --image=nginx:1.19
+
+kubectl edit pod nginx
+
+kubectl describe pod nginx
+
+kubectl logs nginx
+
+kubectl top pod nginx
+
+kubectl exec -it nginx -- /bin/bash
+
+kubectl delete pod nginx
+
